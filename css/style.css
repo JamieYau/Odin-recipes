@@ -1,5 +1,49 @@
-.left, .right {
-  display:inline-block;
-  vertical-align: top;
+body {
+  background: linear-gradient(180deg, rgb(182, 159, 97), rgb(128, 89, 24));
+  background-attachment: fixed; /*edit*/
+}
 
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 40px;
+  
+}
+
+h2, h3{
+  text-align: center;
+  background-color: white;
+  color: black;
+}
+
+a {
+  color: white;
+}
+
+.container {
+  background-color: rgb(26, 26, 26);
+  border-radius: 25px;
+  margin: auto;
+  width: 50%;
+  border: 2px double white;
+  color: white;
+}
+
+.recipe_image {
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.list {
+  text-align: center;
+  list-style: inside;
+  font-size: 20px;
+}
+
+.left,
+.right {
+  display: inline-block;
+  vertical-align: top;
 }
